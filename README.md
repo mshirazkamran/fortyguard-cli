@@ -401,3 +401,14 @@ uv run python -m fortyguard_api_test --help
 - Plans and pricing: <https://fortyguard.com/api-pricing>
 - Base URL: `https://api.fortyguard.com`
 - Authentication header: `api-key: YOUR_API_KEY`
+
+---
+
+## License
+
+This project is licensed under the **GNU General Public License v3.0**
+(`GPL-3.0-only`). See [`LICENSE`](LICENSE) for the full text.
+
+You may redistribute and/or modify this software under the terms of the GPL
+as published by the Free Software Foundation, version 3. It comes with
+**absolutely no warranty**, to the extent permitted by law.
