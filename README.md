@@ -65,9 +65,29 @@ uv run fg status <activity_id> --wait
 
 ---
 
+## Sample commands
+
+[`commands.md`](commands.md) is a ready-to-run cookbook: open it, copy a
+command, and run it. It contains examples for **every endpoint** using three
+US locations — **Miami, Denver and San Jose** — including location
+coordinates, heatmap bounding boxes, filter types, analysis options, routing
+pairs and request payloads.
+
+Start with the free examples (`doctor`, `credits`), then copy a paid command
+such as:
+
+```bash
+uv run fg heatmap --bbox -80.2100,25.7500,-80.1700,25.7900 \
+  --date 2024-07-15 --start-time 14:00
+```
+
+See [`commands.md`](commands.md) for the full set.
+
+---
+
 ## Command reference
 
-For copy-paste examples for every endpoint in Miami, Denver and San Jose, see
+Every command also has copy-paste examples in
 [`commands.md`](commands.md).
 
 | Command | Endpoint | Credits | Returns |
