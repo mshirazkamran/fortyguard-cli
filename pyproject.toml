@@ -1,0 +1,21 @@
+[project]
+name = "fortyguard-api-test"
+version = "0.1.0"
+description = "A command-line client for testing the FortyGuard Temperature API."
+readme = "README.md"
+authors = [
+    { name = "mshirazkamran", email = "dev.mshiraz@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.5.1",
+    "httpx>=0.28.1",
+]
+
+[project.scripts]
+fg = "fortyguard_api_test.cli:cli"
+fortyguard = "fortyguard_api_test.cli:cli"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
